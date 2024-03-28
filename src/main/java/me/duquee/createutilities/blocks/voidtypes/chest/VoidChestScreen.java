@@ -13,6 +13,7 @@ public class VoidChestScreen extends AbstractSimiContainerScreen<VoidChestContai
 
 	public VoidChestScreen(VoidChestContainer container, Inventory inv, Component title) {
 		super(container, inv, title);
+		this.imageHeight = 172;
 	}
 
 	@Override
@@ -21,7 +22,7 @@ public class VoidChestScreen extends AbstractSimiContainerScreen<VoidChestContai
 		int startY = (height - imageHeight)/2;
 		graphics.blit(TEXTURE, startX, startY, 0, 0, imageWidth, imageHeight);
 		graphics.drawString(font, title, startX + 8, startY + 7, 0x404040);
-		graphics.drawString(font, playerInventoryTitle, startX + 8, startY + 74, 0x404040);
+		graphics.drawString(font, playerInventoryTitle, startX + 8, startY + 78, 0x404040, false);
 	}
 
 }
