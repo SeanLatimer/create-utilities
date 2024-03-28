@@ -8,6 +8,12 @@
   "block.createutilities.void_tank": "Tanque do Vazio",
   "block.createutilities.void_battery": "Bateria do Vazio",
   "block.createutilities.void_casing": "Revestimento do Vazio",
+  "block.createutilities.void_steel_block": "Bloco de Aço do Vazio",
+  "block.createutilities.void_steel_scaffolding": "Andaime de Aço do Vazio",
+  "block.createutilities.void_steel_ladder": "Escada de Mão de Aço do Vazio",
+  "block.createutilities.void_steel_bars": "Grades de Aço do Vazio",
+  "block.createutilities.amethyst_tiles": "Ladrilhos de Ametista",
+  "block.createutilities.small_amethyst_tiles": "Ladrilhos Pequenos de Ametista",
 
   "item.createutilities.void_steel_ingot": "Barra de Aço do Vazio",
   "item.createutilities.void_steel_sheet": "Chapa de Aço do Vazio",

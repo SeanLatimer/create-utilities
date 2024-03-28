@@ -53,7 +53,7 @@ public class VoidChestContainer extends MenuBase<VoidChestTileEntity> {
 	@Override
 	protected void addSlots() {
 		addChestSlots();
-		addPlayerSlots(8, 85);
+		addPlayerSlots(8, 90);
 	}
 
 	private void addChestSlots() {
