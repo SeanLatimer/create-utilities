@@ -1,8 +1,5 @@
 package me.duquee.createutilities.blocks.voidtypes.chest;
 
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.vertex.PoseStack;
-
 import com.simibubi.create.foundation.gui.menu.AbstractSimiContainerScreen;
 
 import me.duquee.createutilities.CreateUtilities;
@@ -11,14 +8,13 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
 
-import org.jetbrains.annotations.NotNull;
-
 public class VoidChestScreen extends AbstractSimiContainerScreen<VoidChestContainer> {
 
 	private static final ResourceLocation TEXTURE = CreateUtilities.asResource("textures/gui/void_chest.png");
 
 	public VoidChestScreen(VoidChestContainer container, Inventory inv, Component title) {
 		super(container, inv, title);
+		this.imageHeight = 172;
 	}
 
 	@Override
@@ -29,7 +25,7 @@ public class VoidChestScreen extends AbstractSimiContainerScreen<VoidChestContai
 
 		guiGraphics.blit(TEXTURE, startX, startY, 0, 0, imageWidth, imageHeight);
 		guiGraphics.drawString(font, title, startX + 8, startY + 7, 0x404040);
-		guiGraphics.drawString(font, playerInventoryTitle, startX + 8, startY + 74, 0x404040);
+		guiGraphics.drawString(font, playerInventoryTitle, startX + 8, startY + 78, 0x404040, false);
 
 	}
 

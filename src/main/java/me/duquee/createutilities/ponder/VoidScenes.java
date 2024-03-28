@@ -13,7 +13,7 @@ import com.simibubi.create.foundation.ponder.element.InputWindowElement;
 import com.simibubi.create.foundation.utility.Pointing;
 
 import io.github.fabricators_of_create.porting_lib.transfer.TransferUtil;
-import io.github.fabricators_of_create.porting_lib.util.FluidStack;
+import io.github.fabricators_of_create.porting_lib.fluids.FluidStack;
 import me.duquee.createutilities.blocks.voidtypes.battery.VoidBatteryTileEntity;
 import me.duquee.createutilities.blocks.voidtypes.chest.VoidChestTileEntity;
 import me.duquee.createutilities.blocks.voidtypes.motor.VoidMotorTileEntity;
