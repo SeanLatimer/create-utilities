@@ -1,0 +1,7 @@
+{
+  "parent": "create:item/bars",
+  "textures": {
+    "bars": "createutilities:block/bars/void_steel_bars",
+    "edge": "createutilities:block/bars/void_steel_bars_edge"
+  }
+}

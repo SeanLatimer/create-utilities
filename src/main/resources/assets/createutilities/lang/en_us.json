@@ -8,6 +8,12 @@
   "block.createutilities.void_tank": "Void Tank",
   "block.createutilities.void_battery": "Void Battery",
   "block.createutilities.void_casing": "Void Casing",
+  "block.createutilities.void_steel_block": "Block of Void Steel",
+  "block.createutilities.void_steel_scaffolding": "Void Steel Scaffolding",
+  "block.createutilities.void_steel_ladder": "Void Steel Ladder",
+  "block.createutilities.void_steel_bars": "Void Steel Bars",
+  "block.createutilities.amethyst_tiles": "Amethyst Tiles",
+  "block.createutilities.small_amethyst_tiles": "Small Amethyst Tiles",
 
   "item.createutilities.void_steel_ingot": "Void Steel Ingot",
   "item.createutilities.void_steel_sheet": "Void Steel Sheet",

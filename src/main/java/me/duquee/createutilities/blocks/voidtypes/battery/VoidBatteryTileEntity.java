@@ -93,7 +93,7 @@ public class VoidBatteryTileEntity extends SmartBlockEntity implements IHaveGogg
 
 		new LangBuilder(CreateUtilities.ID)
 				.add(new LangBuilder(CreateUtilities.ID)
-						.text(battery.amount+ "fe")
+						.text(battery.amount + "fe")
 						.style(ChatFormatting.GOLD))
 				.add(new LangBuilder(CreateUtilities.ID)
 						.text(" / ")
