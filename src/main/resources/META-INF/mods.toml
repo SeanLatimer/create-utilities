@@ -49,6 +49,6 @@ Adds extra utilities to the Create mod
 [[dependencies.createutilities]]
     modId="create"
     mandatory=true
-    versionRange="[0.5.1.f-332,)"
+    versionRange="[0.5.1.f,)"
     ordering="NONE"
     side="BOTH"
