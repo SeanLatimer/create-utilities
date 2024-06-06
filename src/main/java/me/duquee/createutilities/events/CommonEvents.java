@@ -19,9 +19,6 @@ public class CommonEvents {
 
 		DimensionDataStorage dataStorage = server.overworld().getDataStorage();
 
-		CreateUtilities.VOID_CHEST_INVENTORIES_DATA = dataStorage
-				.computeIfAbsent(VoidChestInventoriesData::load, VoidChestInventoriesData::new, "VoidChestInventories");
-
 		CreateUtilities.VOID_TANKS_DATA = dataStorage
 				.computeIfAbsent(VoidTanksData::load, VoidTanksData::new, "VoidTanks");
 

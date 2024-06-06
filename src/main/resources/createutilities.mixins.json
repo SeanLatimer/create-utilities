@@ -8,10 +8,10 @@
     "MountedStorageAccessor",
     "MountedStorageManagerMixin",
     "MountedStorageMixin",
-    "SceneBuilderAccessor"
+    "SceneBuilderAccessor",
+    "CreateEventsMixin"
   ],
-  "client": [
-  ],
+  "client": [],
   "injectors": {
     "defaultRequire": 1
   }
